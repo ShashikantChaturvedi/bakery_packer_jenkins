@@ -36,8 +36,8 @@
       "Status": "Baked"
     },
     "aws_polling": {
-      "delay_seconds": 30,  
-      "max_attempts": 120 
+      "delay_seconds": 300,  
+      "max_attempts": 18 
     }
   }],
   "provisioners": [
