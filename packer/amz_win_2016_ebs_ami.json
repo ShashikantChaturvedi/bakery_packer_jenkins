@@ -14,6 +14,8 @@
     "vpc_id": "{{ user `vpc_id` }}",
     "subnet_id": "{{ user `subnet_id` }}",
     "security_group_id": "{{ user `security_group` }}",
+    "ssh_keypair_name": "packer_build_key",  
+    "ssh_private_key_file": "packer_build_key.pem",
     "run_tags": {
       "Name": "Packer {{ user `ami_name` }} (Windows)"
     },
